@@ -1,5 +1,9 @@
-### Intern at iNeuron Intelligence Pvt Ltd 
-####  Project Title: Crop Production Data Analysis - India
+
+
+##  Project Title: Crop Production Data Analysis - India
+![farmers](https://user-images.githubusercontent.com/79318960/135967140-6236654a-18ba-42c4-8b09-642205f7177c.jpg)
+
+
 #### ABOUT DATASET
 This data set contains india Crop Production Details (1997-2015)
 
@@ -16,4 +20,6 @@ Data Set has 246091 Rows, 7 Columns
 #### Seasons - Autumn, Kharif, Rabi, Whole year, Summer, Winter
 * Whole year production Contribution is very high
 * 
+*
+
  
