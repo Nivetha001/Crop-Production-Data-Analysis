@@ -1,7 +1,8 @@
 
 
 ##  Project Title: Crop Production Data Analysis - India
-![pict](https://user-images.githubusercontent.com/79318960/136893479-fb2f4c04-1546-468d-9549-b77a4b262727.png)
+![crops](https://user-images.githubusercontent.com/79318960/136906292-3daca2de-91b6-4ac8-bccf-15cded65e4d7.png)
+
 
 
 
