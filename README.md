@@ -18,12 +18,10 @@
   
   
  ## 🛠 Tools Used
- SQL SERVER MANAGEMENT STUDIO
- ![ssms](https://user-images.githubusercontent.com/79318960/137640397-0739758c-c30b-4125-a26d-b2dd82c812bc.gif)
-  SQL SERVER MANAGEMENT STUDIO
 
- 
- ![kkk](https://user-images.githubusercontent.com/79318960/137640783-5e03fb03-0455-4bc4-a608-8184ad3e8895.gif)
+ ![mss](https://user-images.githubusercontent.com/79318960/137679658-83858a89-2c34-456b-b789-e7d3f63423f5.png)
+
+
  
 
 
