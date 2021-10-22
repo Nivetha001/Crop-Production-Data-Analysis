@@ -1,5 +1,9 @@
 ##  Project Title: Crop Production Data Analysis - India
 
+
+https://user-images.githubusercontent.com/79318960/138404658-3b65bb79-d153-4855-89b3-ac5b33375fe7.mp4
+
+
 ### 🔎 Why Data Analysis ??
 _____________________________
 - Data analysis is important in business to understand problems facing an organisation, and to explore data in meaningful ways. Data in itself is merely facts and figures. Data analysis organises, interprets, structures and presents the data into useful information that provides context for the data. This context can then be used by decision-makers to take action with the aim of enhancing productivity and business gain.
@@ -20,7 +24,6 @@ ____________________________________
   - Datasets is available in the given link. You can download here https://data.world/thatzprem/agriculture-india 
   - This is the  Data Analysis Project 'Crop Production Data Analysis - India' 
   - I have also created a Dashboard for this Data Analysis Project using Power bi and  Gathered the Better Insights from the dataset based on the production statement wise, year     wise, crop wise, Area wise, District wise, Production Wise, Season Wise 
-![cp](https://user-images.githubusercontent.com/79318960/136939523-e12a85eb-0731-4f6f-acf5-dd5ce91a2e94.png)
 ##### Here we can see the coconut production, apple, sugarcane, Mango
   
  ### 🛠 Tools Used
