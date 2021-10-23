@@ -34,8 +34,10 @@ https://user-images.githubusercontent.com/79318960/138544085-b889ce72-fc02-4fac-
 
  ![mss](https://user-images.githubusercontent.com/79318960/137679658-83858a89-2c34-456b-b789-e7d3f63423f5.png)
  
- SQL Server,excel  for Analyzing the Data
- Power bi for creating a Dashboard
+ - SQL Server,excel  for Analyzing the Data
+ - Power bi for visualization
+ - using power bi I have created a dashboard for this project
+ 
  
 
  
