@@ -1,0 +1,102 @@
+select top 3 production,Crop_Year,state_name from crop_production order by production desc ;
+
+select top 15 production,crop_year,state_name,district_name from crop_production order by production desc;
+
+select season,production,crop_year from crop_production order by production desc;
+
+select sum(production),state_name from crop_production group by state_name order by  sum(production) desc
+
+select * from crop_production where production>1000000000
+
+select * from crop_production where production>1000000 and crop='coconut'
+
+STORED PROCEDURE
+-----------------
+
+create procedure Allseasonproduction;
+as
+begin
+select sum(production) from crop_production where season='whole year';
+union 
+select sum(production) from crop_production where season='kharif';
+union 
+select sum(production) from crop_production where season='Autumn';
+union 
+select sum(production) from crop_production where season='Winter';
+union 
+select sum(production) from crop_production where season='rabi';
+end
+
+Allseasonproduction----->Procedure name to call the function
+
+STORED PROCEDURE WITH PARAMETER
+---------------------------------
+
+create proc seasonwiseproduction 
+@season nvarchar(50)
+as
+begin
+select sum(production) from crop_production where season=@season
+end
+
+seasonwiseproduction <parameter>
+
+state_name and crop wise production
+-------------------------------------
+create proc stateandcropwiseproduction 
+@State_Name nvarchar(50),@crop nvarchar(50)
+as
+begin
+select sum(production) from crop_production where State_Name=@State_Name and crop=@crop
+end
+stateandcropwiseproduction 'Tamil Nadu','coconut'
+
+crop,crop_yearwiseproduction
+--------------------------------------
+create proc crop_yearcropwiseproduction 
+@crop_year int,@crop nvarchar(50)
+as
+begin
+select sum(production) from crop_production where crop_year=@crop_year or crop=@crop
+end
+
+crop_yearwiseproduction '2011','Rice'
+
+SEASON WISE PRODUCTION
+----------------------------------------
+
+create proc wholeyear
+as
+begin
+(select sum(production) from crop_production where crop_year='whole year')
+end
+
+create proc Autumn
+as
+begin
+(select sum(production) from crop_production where crop_year='whole year')
+end
+
+create proc Winter
+as
+begin
+(select sum(production) from crop_production where crop_year='Winter')
+end
+
+create proc summer
+as
+begin
+(select sum(production) from crop_production where crop_year='Summer')
+end
+
+create proc kharif
+as
+begin
+(select sum(production) from crop_production where crop_year='kharif')
+end
+
+create proc rabi
+as
+begin
+(select sum(production) from crop_production where crop_year='rabi')
+end
