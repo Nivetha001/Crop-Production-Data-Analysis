@@ -7,6 +7,9 @@ the side of the Future Internet. This paper presents a novel Business-to-Busines
 collaboration platform from the agri-food sector perspective, which aims to facilitate the 
 collaboration of numerous stakeholders belonging to associated business domains, in an 
 effective and flexible manner.
+
+![IMG_20211005_084348](https://user-images.githubusercontent.com/79318960/138582289-54be5e0c-6233-4411-a5e8-a562a70dbbb7.JPG)
+
 ### 📝Project Statement:
 __________________________________
 
@@ -33,7 +36,7 @@ influence the crop production.
 
 ### Conclusion 
 __________________________________
-- found key insights that  which year, which crop, wich state contribution is high and low, based on production wise, area wise
+- found key insights that  which year, which crop, wich state contribution is high and low, based on production wise, area wise.
  
  
 
