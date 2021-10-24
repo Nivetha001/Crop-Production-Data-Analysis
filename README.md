@@ -21,13 +21,6 @@ influence the crop production.
   - Datasets is available in the given link. You can download here https://data.world/thatzprem/agriculture-india 
   - This dataset provides a huge amount of information on crop production in India ranging 
     from several years(1997-2015).
- 
- 
-
-https://user-images.githubusercontent.com/79318960/138544085-b889ce72-fc02-4fac-ae06-eb0c0456cee3.mp4
-
-
-
   
  ### 🛠 Tools Used
  _________________
@@ -37,6 +30,10 @@ https://user-images.githubusercontent.com/79318960/138544085-b889ce72-fc02-4fac-
  - SQL Server,excel  for Analyzing the Data
  - Power bi for visualization
  - using power bi I have created a dashboard for this project
+
+### Conclusion 
+__________________________________
+- found key insights that  which year, which crop, wich state contribution is high and low, based on production wise, area wise
  
  
 
