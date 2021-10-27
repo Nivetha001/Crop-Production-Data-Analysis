@@ -1,5 +1,5 @@
-## understand the data set
-## analysis begin with small Queries
+ understand the data set
+ analysis begin with small Queries
 
 select * from crop_production
 
