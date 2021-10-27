@@ -1,3 +1,20 @@
+## understand the data set
+## analysis begin with small Queries
+
+select * from crop_production
+
+select count(*) from crop_production
+
+select avg(production) from crop_production
+
+select sum(production) from crop_production
+
+select min(production) from crop_production
+
+select max(production) from crop_production
+
+select stdev(production) from crop_production 
+
 select top 3 production,Crop_Year,state_name from crop_production order by production desc ;
 
 select top 15 production,crop_year,state_name,district_name from crop_production order by production desc;
