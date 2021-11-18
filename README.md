@@ -2,7 +2,7 @@
 ### Technology : Business Intelligence
 ### Domain : Agriculture
 
-Detailed project: https://www.youtube.com/watch?v=XORAxsQCK0g
+Demo video: https://www.youtube.com/watch?v=XORAxsQCK0g
 
 The Agriculture business domain, as a vital part of the overall supply chain, is expected 
 to highly evolve in the upcoming years via the developments, which are taking place on 
