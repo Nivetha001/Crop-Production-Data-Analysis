@@ -27,6 +27,9 @@ select * from crop_production where production>1000000000
 
 select * from crop_production where production>1000000 and crop='coconut'
 
+select crop,sum(production) as e from crop_production group by crop order by e desc
+
+
 STORED PROCEDURE
 -----------------
 
