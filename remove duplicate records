@@ -1,0 +1,11 @@
+with cte as 
+(
+select *, rank() over(partition by state_name,District_name,crop_year,season,crop,Area,Production order by state_name,District_name,crop_year,season,crop,Area,Production  ) as row_values from crop_production
+) 
+delete from cte
+where row_values>1
+
+
+## For removing duplicate records from the table i used row number() function.
+## first the CTE uses the ROW_NUMBER() function to find the duplicate rows specified by values in the id,name,sal columns.
+## then,the delete statement deletes all the duplicate rows but keeps only one occurence of each duplicate group.
